@@ -29,3 +29,5 @@ select <- function(data, vars) {
   }
 }
 
+minidplyr::select(iris, c(2:3))
+
