@@ -1,4 +1,8 @@
-#' Title
+#' Adding two numbers
+#'
+#' This is the description
+#'
+#' This will be more description
 #'
 #' @param x A number
 #' @param y A number
