@@ -1,9 +1,9 @@
 #' Title
 #'
-#' @param x
-#' @param y
+#' @param x A number
+#' @param y A number
 #'
-#' @returns
+#' @returns The sum of x and y
 #' @export
 #'
 #' @examples
