@@ -1,6 +1,8 @@
 
 #' Select
 #'
+#' Selects variables from a data frame and returns a subsetted data frame containing only the selected variables
+#'
 #' @param data A data frame
 #' @param vars Variables (character strings or column indices)
 #'
@@ -8,6 +10,9 @@
 #' @export
 #'
 #' @examples
+#' minidplyr::select(iris, c("Petal.Width"))
+#' minidplyr::select(iris, c(2:5))
+#'
 select <- function(data, vars) {
   # data: a data frame
   # vars: character vector of column names OR numeric indices
@@ -29,5 +34,5 @@ select <- function(data, vars) {
   }
 }
 
-minidplyr::select(iris, c(2:3))
+
 

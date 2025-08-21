@@ -11,6 +11,9 @@
 #' @export
 #'
 #' @examples
+#' test(2, 5)
+#' test(10, 16)
+#'
 test <- function(x, y) {
   x + y
 }
